@@ -78,14 +78,8 @@ def spam_detector():
             conn.commit()
         else:
             result = "This message is probably not spam."
-        
-
-        # function to generate all related spam messages to the input
 
         # Fetch related spam messages using the input as the WHERE clause
-        query = f"SELECT message FROM spam_messages WHERE message LIKE '%{message}%'"
-        c.execute(query)
-        related_spam_messages = [row[0] for row in c.fetchall()]
     
     # Fetch all spam messages
     c.execute("SELECT message FROM spam_messages")
