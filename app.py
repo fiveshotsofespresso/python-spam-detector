@@ -60,7 +60,6 @@ HTML = '''
 def spam_detector():
     result = ""
     spam_messages = []
-    related_spam_messages = []
     
     conn = sqlite3.connect('spam_detector.db')
     c = conn.cursor()
@@ -87,7 +86,7 @@ def spam_detector():
     
     conn.close()
     
-    return render_template_string(HTML, result=result, spam_messages=spam_messages, related_spam_messages=related_spam_messages)
+    return render_template_string(HTML, result=result, spam_messages=spam_messages)
 
 if __name__ == '__main__':
     app.run(debug=True)
