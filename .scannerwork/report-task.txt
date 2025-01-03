@@ -1,0 +1,6 @@
+projectKey=fiveshotsofespresso_python-spam-detector_ac20085c-ad55-497c-a745-f0ce43d8afea
+serverUrl=http://localhost:9000
+serverVersion=24.12.0.100206
+dashboardUrl=http://localhost:9000/dashboard?id=fiveshotsofespresso_python-spam-detector_ac20085c-ad55-497c-a745-f0ce43d8afea
+ceTaskId=382c05e3-5c3b-4eca-8142-3692c2e25a3a
+ceTaskUrl=http://localhost:9000/api/ce/task?id=382c05e3-5c3b-4eca-8142-3692c2e25a3a
